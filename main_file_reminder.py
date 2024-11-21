@@ -1,4 +1,16 @@
 from tkinter import *
 from tkinter import messagebox as mb
-import pygame
+
 import datetime
+import time
+
+window = Tk()
+window.title("Напоминалка")
+window.geometry("400x300")
+
+e = Entry(window, font=("Arial"))
+e.pack()
+btn = Button(window, text="Установить напоминание")
+btn.pack
+
+window.mainloop()
