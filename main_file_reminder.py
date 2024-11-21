@@ -11,6 +11,6 @@ window.geometry("400x300")
 e = Entry(window, font=("Arial"))
 e.pack()
 btn = Button(window, text="Установить напоминание")
-btn.pack
+btn.pack()
 
 window.mainloop()
